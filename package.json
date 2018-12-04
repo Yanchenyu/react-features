@@ -1,0 +1,19 @@
+{
+  "name": "react-context",
+  "version": "1.0.0",
+  "description": "react 16.3 context API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yanchenyu/react-context.git"
+  },
+  "author": "yanchenyu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yanchenyu/react-context/issues"
+  },
+  "homepage": "https://github.com/Yanchenyu/react-context#readme"
+}
