@@ -42,5 +42,6 @@ module.exports = {
         hot: true,
         port: 8033,
         host:'127.0.0.1',
+        historyApiFallback: true
     }
 }
