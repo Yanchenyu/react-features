@@ -34,7 +34,7 @@ export default class extends Component {
     }
 
     componentDidMount() {
-        setInterval(() => {
+        setTimeout(() => {
             this.setState({
                 index: this.state.index + 1
             })

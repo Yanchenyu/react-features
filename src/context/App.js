@@ -2,6 +2,7 @@ import React, { Component, Fragment } from 'react'
 import { ThemeContext, themes } from './ThemeContext'
 import ThemeTogglerButton from './ThemeTogglerButton'
 
+// 示例一的写法，子组件会触发re-render
 // export default class extends Component {
 
 //     constructor(props) {
