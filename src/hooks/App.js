@@ -1,4 +1,6 @@
-import React, { Component, useState, useEffect, useMemo } from 'react'
+import React, { Component, ReactFragment, useState, useEffect, useMemo } from 'react'
+import HooksCounter from './HooksCounter'
+import Counter from './Counter'
 
 const Com = () => {
 
@@ -27,7 +29,7 @@ const Index = () => {
     
 }
 
-export default class extends Component {    
+class Comcontainer extends Component {    
 
     state = {
         index: 0
@@ -45,6 +47,16 @@ export default class extends Component {
         return <div>
             <Index />
             <p>index: {this.state.index}</p>
+        </div>
+    }
+}
+
+export default class extends Component {
+    render() {
+        return <div>
+            {/* <Comcontainer /> */}
+            <HooksCounter />
+            <Counter />
         </div>
     }
 }
