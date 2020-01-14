@@ -5,4 +5,4 @@ react some new features
 npm i
 
 ## 启动项目
-npm run start
+npm run dev
