@@ -7,7 +7,7 @@ const Mouse = MouseHOC(Cat);
 export default class extends Component {
     render() {
         return <div>
-            <p>mouse move</p>
+            <p>mouse move by HOC</p>
             <Mouse />
         </div>
     }

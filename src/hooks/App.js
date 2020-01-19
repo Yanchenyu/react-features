@@ -51,7 +51,7 @@ class Comcontainer extends Component {
     }
 }
 
-export default class extends Component {
+class App1 extends Component {
     render() {
         return <div>
             {/* <Comcontainer /> */}
@@ -60,3 +60,4 @@ export default class extends Component {
         </div>
     }
 }
+

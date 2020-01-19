@@ -8,7 +8,7 @@ export default class extends Component {
     )
     render() {
         return <div>
-            <p>mouse move</p>
+            <p>mouse move by render-props</p>
             <Mouse render={this.renderMouse} />
         </div>
     }
