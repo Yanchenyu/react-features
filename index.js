@@ -5,6 +5,7 @@ import Home from './src/Home';
 import ContextDemo from './src/context/App';
 import HooksDemo from './src/hooks/Home';
 import BasicHooks from './src/hooks/basicHooks';
+import AdditionalHooks from './src/hooks/additionalHooks'
 import RenderPropsDemo from './src/renderProps/App';
 import HOCDemo from './src/hoc/App';
 
@@ -26,6 +27,9 @@ const AppRouter = () => (
                     <Link to="/basichooks">Basic Hooks Demo</Link>
                 </li>
                 <li>
+                    <Link to="/additionalhooks">Additional Hooks Demo</Link>
+                </li>
+                <li>
                     <Link to="/render-props">Render props Demo</Link>
                 </li>
                 <li>
@@ -38,6 +42,7 @@ const AppRouter = () => (
                 <Route path="/context" component={ContextDemo} />
                 <Route path="/hooks" component={HooksDemo} />
                 <Route path="/basichooks" component={BasicHooks} />
+                <Route path="/additionalhooks" component={AdditionalHooks} />
                 <Route path="/render-props" component={RenderPropsDemo} />
                 <Route path="/hoc" component={HOCDemo} />
             </Switch>
