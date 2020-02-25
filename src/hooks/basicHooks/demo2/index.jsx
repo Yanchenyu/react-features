@@ -4,6 +4,7 @@ import ThemeTogglerButton from './ThemeTogglerButton'
 import Header from './Header'
 import OnceRender from './OnceRender'
 
+// 因为没有使用class组件，所以没有props.children这个属性，只能用其它render props
 function Provider(props) {
     return <ThemeContext.Provider value={contextProviderValueCreator()}>
         {props.render}
